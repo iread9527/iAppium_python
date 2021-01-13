@@ -1,12 +1,14 @@
 {
     "desired_caps": {
         "platformName": "Android",
-        "deviceName": "<your device name>",
+        "deviceName": "927f6ae1",
         "udid": "<your device udid>",
-        "noReset": "false",
+        "noReset": "true",
+        "skipDeviceInitialization": "true",
+        "skipServerInstallation": "true",
         "automationName": "UiAutomator2",
         "appPackage": "com.example.android.contactmanager",
         "appActivity": ".ContactManager"
     },
-    "appium_server_url": "http://localhost:4723/wd/hub"
+    "appium_server_url": "http://127.0.0.1:4723/wd/hub"
 }

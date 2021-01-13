@@ -10,4 +10,4 @@
 - 填入设备的 deviceName 与 udid
 
 运行命令：
-pytest -v test/cm_test.py --tc-file /full_path/iAppium_python.json --tc-format json
+pytest -v test/cm_test.py --tc-file iAppium_python.json --tc-format json
